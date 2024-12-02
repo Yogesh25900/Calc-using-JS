@@ -1,0 +1,82 @@
+.logo{
+    width: 150px;
+    mix-blend-mode: color-burn;
+    
+}
+
+.container{
+    display: flex;
+    
+}
+
+body{
+    background-color: rgb(40, 186, 40);
+    font-family: sans-serif;
+}
+
+li{
+    display:inline;
+    padding: 20px;
+   
+}
+.download {
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center align text and icon horizontally */
+    margin-top: 7px;
+    text-align: center;
+    width: 180px;
+    height: 35px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #f0f0f0; /* Optional: Add background color */
+    border: none; /* Optional: Remove border */
+}
+
+.download-icon {
+
+    width: 22px;
+    margin-left:16px; /* Add some spacing between icon and text */
+}
+
+.download-text {
+    padding: 30px;
+    margin-left: -21px;
+    margin-top: 3px;
+    text-align: center;
+    font-size: 14px; /* Optional: Adjust text size */
+    color: #000; /* Optional: Text color */
+}
+
+.body-title{
+    font-family: 'Moranga IT';
+    font-weight: bold;
+    font-size: 5em;
+    display:table-row-group;
+}
+
+.subtitle{
+    font-style: italic;
+
+}
+
+.bigcolor{
+    color:blueviolet;
+}
+
+.body-container{
+    display:flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.van-img{
+    width: 850px;
+    padding-left:100px;
+}
+
+.center-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

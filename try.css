@@ -1,0 +1,25 @@
+.container { 
+background: #000;  
+display :grid;
+text-align: center;
+align-items: center;
+ justify-items: center;
+}
+li{
+    color: wheat;;
+    display: inline;
+    padding: 20px
+}
+
+.con{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+button{
+    justify-items: auto;
+    background-color: #4CAF50;
+}
