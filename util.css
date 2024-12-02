@@ -3,15 +3,29 @@
     mix-blend-mode: color-burn;
     
 }
+.noto-sans {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
 
 .container{
-    display: flex;
+    display: inline-flex  ;
+    justify-content: left;
     
 }
 
 body{
-    background-color: rgb(40, 186, 40);
-    font-family: sans-serif;
+    display:flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    background-color: rgb(38, 211, 38);
+    font-family: "comic-sans";
 }
 
 li{
@@ -20,38 +34,45 @@ li{
    
 }
 .download {
-    display: flex; /* Use flexbox to align items */
-    align-items: center; /* Align items vertically */
-    justify-content: center; /* Center align text and icon horizontally */
-    margin-top: 7px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin-left: 200px;
     text-align: center;
-    width: 180px;
+    width: 200px;
     height: 35px;
     border-radius: 15px;
     cursor: pointer;
-    background-color: #f0f0f0; /* Optional: Add background color */
-    border: none; /* Optional: Remove border */
-}
+    background-color: #f0f0f0; 
+    border: none; }
 
 .download-icon {
 
     width: 22px;
-    margin-left:16px; /* Add some spacing between icon and text */
+    margin-left:16px; 
 }
 
 .download-text {
     padding: 30px;
+    
     margin-left: -21px;
     margin-top: 3px;
     text-align: center;
-    font-size: 14px; /* Optional: Adjust text size */
-    color: #000; /* Optional: Text color */
-}
+    font-size: 14px; 
+    color: #000;}
+.profile-icon {
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%; 
+    margin-left: 20px;
+    cursor: pointer;
+} 
 
 .body-title{
+    margin-top: -20px;
     font-family: 'Moranga IT';
     font-weight: bold;
-    font-size: 5em;
+    font-size: 4.6em;
     display:table-row-group;
 }
 
@@ -61,22 +82,75 @@ li{
 }
 
 .bigcolor{
-    color:blueviolet;
+    color:rgb(85, 41, 125);
 }
 
 .body-container{
+    margin-top: -30px;
     display:flex;
     align-items: center;
     justify-content: left;
+    margin-bottom: -60px;
 }
 
+
+.descp-cont{
+    margin-top: -50px;
+    margin-left: -770px;
+    margin-bottom: 20px;
+    width: 500px;
+}
 .van-img{
     width: 850px;
     padding-left:100px;
 }
 
 .center-items{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-left: 200px;
+}
+
+
+
+.noto-sans-descp {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:40px;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+.search-box-container {
+    width: 1250px;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px;
+    border-radius: 10px; 
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.searchimg {
+    width: 20px; 
+    height: 20px;
+    margin-right: 10px; 
+}
+
+button {
+    padding: 8px 15px; 
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    border-radius: 5px; 
+    color: black; 
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+
+}
+
+strong{
+    text-align: left;
+    justify-items: left;
 }
